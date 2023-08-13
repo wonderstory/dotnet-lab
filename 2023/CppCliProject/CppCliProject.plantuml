@@ -1,0 +1,76 @@
+@startuml class_binding_framework
+
+interface INotifyPropertyChanged
+{
+    + PropertyChanged : event PropertyChangedEventHandler
+}
+
+abstract class BindableBase
+{
+}
+
+class PropertyAgent
+{
+    + Set<T>(storage : ref T, value : T, propertyName : string) : bool
+    + RaisePropertyChanged(propertyName : string) : void
+}
+
+INotifyPropertyChanged <|.. BindableBase
+PropertyAgent "1" <-* "1" BindableBase
+
+interface ICanExecuteAware
+{
+    + CanExecute() : bool
+}
+
+class Binder <<static>>
+ICanExecuteAware <.. Binder
+
+abstract class ViewModelBase
+{
+    + BindAsChecked(dataMember : string, CheckBox) : Binding
+    ' + BindAsChecked(dataMember : string, RadioButton) : Binding
+    + BindAsEnabled(dataMember : string, Control) : Binding
+    ' + BindAsEnabled(RelayCommand, Control) : Binding
+    + BindAsVisible(dataMember : string, Control) : Binding
+    ' + BindAsVisible(RelayCommand, Control) : Binding
+    ' + BindAsValue(dataMember : string, NumericUpDown) : Binding
+    ' + BindAsText(dataMember : string, Control) : Binding
+    + BindAsText(dataMember : string, Control, isOnChanged : bool) : Binding
+    + BindAsText(BindingSource, dataMember : string, Control) : Binding
+    ' + BindAs(dataMember : string, Control, propertyName : string) : Binding
+    + BindAs(dataMember : string, Control, propertyName : string, isOnChanged : bool) : Binding
+    ' + BindAs(INotifyPropertyChanged, dataMember : string, Control, propertyName : string) : Binding
+    ' + BindAs(INotifyPropertyChanged, dataMember : string, Control, propertyName : string, isOnChanged : bool) : Binding
+    ' + BindAs(BindingSource, dataMember : string, Control, propertyName : string) : Binding
+    ' + BindAs(BindingSource, dataMember : string, Control, propertyName : string, isOnChanged : bool) : Binding
+    {method} ...
+}
+
+BindableBase <|--- ViewModelBase
+Binder <.. ViewModelBase
+
+class RelayCommand
+{
+    + Execute() : void
+    + RaiseCanExecuteChanged() : void
+    + BindAsEnabled(Control) : Binding
+    + BindAsVisible(Control) : Binding
+}
+
+ICanExecuteAware <|.. RelayCommand
+BindableBase <|----- RelayCommand
+Binder <.. RelayCommand
+
+
+
+class ViewModel #ffc
+
+ViewModelBase <|--- ViewModel
+
+class View #ffc
+
+RelayCommand "0..*" <---* "1" ViewModel
+ViewModel "1" <--* "1" View
+
+@enduml

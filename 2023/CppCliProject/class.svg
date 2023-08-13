@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1037px" preserveAspectRatio="none" style="width:890px;height:1037px;background:#FFFFFF;" version="1.1" viewBox="0 0 890 1037" width="890px" zoomAndPan="magnify"><defs/><g><!--MD5=[638732a4d9fb0c1bc21919cc2182dbf5]
+class INotifyPropertyChanged--><g id="elem_INotifyPropertyChanged"><rect codeLine="2" fill="#F1F1F1" height="65.6094" id="INotifyPropertyChanged" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="386" x="381.5" y="7"/><ellipse cx="494.25" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M495.4219,27.7188 L496.1563,27.7188 L496.1563,29.8594 L492.4688,29.8594 L492.4688,27.7188 L493.2031,27.7188 L493.2031,18.375 L492.4688,18.375 L492.4688,16.2344 L496.1563,16.2344 L496.1563,18.375 L495.4219,18.375 L495.4219,27.7188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="152" x="514.75" y="28.7285">INotifyPropertyChanged</text><line style="stroke:#181818;stroke-width:0.5;" x1="382.5" x2="766.5" y1="39" y2="39"/><ellipse cx="392.5" cy="53.3047" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="360" x="401.5" y="57.5332">PropertyChanged : event PropertyChangedEventHandler</text><line style="stroke:#181818;stroke-width:0.5;" x1="382.5" x2="766.5" y1="64.6094" y2="64.6094"/></g><!--MD5=[b5d31eee2ef4aecc808e771e5ff31d3f]
+class BindableBase--><g id="elem_BindableBase"><rect codeLine="7" fill="#F1F1F1" height="48" id="BindableBase" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="119" x="515" y="150.5"/><ellipse cx="530" cy="166.5" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M527.9688,172.8594 L525.6719,172.8594 L529.1719,159.2344 L531.0313,159.2344 L534.5156,172.8594 L532.2188,172.8594 L531.2969,169.0781 L528.9063,169.0781 L527.9688,172.8594 Z M530.0313,163.25 L530.1563,163.25 L529.4063,167.125 L530.7813,167.125 L530.0313,163.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="87" x="544" y="172.2285">BindableBase</text><line style="stroke:#181818;stroke-width:0.5;" x1="516" x2="633" y1="182.5" y2="182.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="516" x2="633" y1="190.5" y2="190.5"/></g><!--MD5=[35ea68d4991360168aa63b1c0393e9ac]
+class PropertyAgent--><g id="elem_PropertyAgent"><rect codeLine="11" fill="#F1F1F1" height="83.2188" id="PropertyAgent" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="418" x="61.5" y="133"/><ellipse cx="220.75" cy="149" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M224.4375,150.2031 Q224.1875,153.6875 223.0469,154.8438 Q222.0156,155.8594 220.6094,155.8594 Q219.2031,155.8594 218.1719,154.8438 Q216.4219,153.0781 216.4219,149.4063 Q216.4219,145.1563 218.2969,143.25 Q219.3438,142.2344 220.6719,142.2344 Q222.0781,142.2344 222.9219,143.0469 Q224.4063,144.5625 224.3281,147.4375 L222.2031,147.4375 Q222.125,145.1094 221.4844,144.4688 Q221.2031,144.1719 220.6719,144.1719 Q220.2188,144.1719 219.8594,144.5469 Q218.625,145.7656 218.625,149.2813 Q218.625,152.3281 219.6719,153.3438 Q220.0938,153.7813 220.6094,153.7813 Q221.0625,153.7813 221.5,153.3438 Q222.0625,152.7969 222.1406,150.2031 L224.4375,150.2031 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="241.25" y="154.7285">PropertyAgent</text><line style="stroke:#181818;stroke-width:0.5;" x1="62.5" x2="478.5" y1="165" y2="165"/><line style="stroke:#181818;stroke-width:0.5;" x1="62.5" x2="478.5" y1="173" y2="173"/><ellipse cx="72.5" cy="187.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="392" x="81.5" y="191.5332">Set&lt;T&gt;(storage : ref T, value : T, propertyName : string) : bool</text><ellipse cx="72.5" cy="204.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="332" x="81.5" y="209.1426">RaisePropertyChanged(propertyName : string) : void</text></g><!--MD5=[dbb6c88b45a3bec1a7ccb9959ca4b227]
+class ICanExecuteAware--><g id="elem_ICanExecuteAware"><rect codeLine="20" fill="#F1F1F1" height="65.6094" id="ICanExecuteAware" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="151" x="541" y="337"/><ellipse cx="556" cy="353" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M557.1719,357.7188 L557.9063,357.7188 L557.9063,359.8594 L554.2188,359.8594 L554.2188,357.7188 L554.9531,357.7188 L554.9531,348.375 L554.2188,348.375 L554.2188,346.2344 L557.9063,346.2344 L557.9063,348.375 L557.1719,348.375 L557.1719,357.7188 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="119" x="570" y="358.7285">ICanExecuteAware</text><line style="stroke:#181818;stroke-width:0.5;" x1="542" x2="691" y1="369" y2="369"/><line style="stroke:#181818;stroke-width:0.5;" x1="542" x2="691" y1="377" y2="377"/><ellipse cx="552" cy="391.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="561" y="395.5332">CanExecute() : bool</text></g><!--MD5=[0f894add1a0cf8e31892010e62137c69]
+class Binder--><g id="elem_Binder"><rect codeLine="25" fill="#F1F1F1" height="58.7031" id="Binder" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="73" x="564" y="463"/><ellipse cx="579" cy="484.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M582.6875,485.5547 Q582.4375,489.0391 581.2969,490.1953 Q580.2656,491.2109 578.8594,491.2109 Q577.4531,491.2109 576.4219,490.1953 Q574.6719,488.4297 574.6719,484.7578 Q574.6719,480.5078 576.5469,478.6016 Q577.5938,477.5859 578.9219,477.5859 Q580.3281,477.5859 581.1719,478.3984 Q582.6563,479.9141 582.5781,482.7891 L580.4531,482.7891 Q580.375,480.4609 579.7344,479.8203 Q579.4531,479.5234 578.9219,479.5234 Q578.4688,479.5234 578.1094,479.8984 Q576.875,481.1172 576.875,484.6328 Q576.875,487.6797 577.9219,488.6953 Q578.3438,489.1328 578.8594,489.1328 Q579.3125,489.1328 579.75,488.6953 Q580.3125,488.1484 580.3906,485.5547 L582.6875,485.5547 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="592.5" y="480.457">«static»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="593" y="497.627">Binder</text><line style="stroke:#181818;stroke-width:0.5;" x1="565" x2="636" y1="505.7031" y2="505.7031"/><line style="stroke:#181818;stroke-width:0.5;" x1="565" x2="636" y1="513.7031" y2="513.7031"/></g><!--MD5=[2668e66bfbbb0f77acc51030c6b4e7a7]
+class ViewModelBase--><g id="elem_ViewModelBase"><rect codeLine="28" fill="#F1F1F1" height="171.2656" id="ViewModelBase" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="597" x="7" y="582"/><ellipse cx="251.25" cy="598" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M249.2188,604.3594 L246.9219,604.3594 L250.4219,590.7344 L252.2813,590.7344 L255.7656,604.3594 L253.4688,604.3594 L252.5469,600.5781 L250.1563,600.5781 L249.2188,604.3594 Z M251.2813,594.75 L251.4063,594.75 L250.6563,598.625 L252.0313,598.625 L251.2813,594.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="100" x="271.75" y="603.7285">ViewModelBase</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="603" y1="614" y2="614"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="603" y1="622" y2="622"/><ellipse cx="18" cy="636.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="366" x="27" y="640.5332">BindAsChecked(dataMember : string, CheckBox) : Binding</text><ellipse cx="18" cy="653.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="345" x="27" y="658.1426">BindAsEnabled(dataMember : string, Control) : Binding</text><ellipse cx="18" cy="671.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="334" x="27" y="675.752">BindAsVisible(dataMember : string, Control) : Binding</text><ellipse cx="18" cy="689.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="454" x="27" y="693.3613">BindAsText(dataMember : string, Control, isOnChanged : bool) : Binding</text><ellipse cx="18" cy="706.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="420" x="27" y="710.9707">BindAsText(BindingSource, dataMember : string, Control) : Binding</text><ellipse cx="18" cy="724.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="571" x="27" y="728.5801">BindAs(dataMember : string, Control, propertyName : string, isOnChanged : bool) : Binding</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="12" x="27" y="746.1895">...</text></g><!--MD5=[851fd32ed633e590b53d4e26bc111822]
+class RelayCommand--><g id="elem_RelayCommand"><rect codeLine="52" fill="#F1F1F1" height="118.4375" id="RelayCommand" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="244" x="639.5" y="608.5"/><ellipse cx="707.25" cy="624.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M710.9375,625.7031 Q710.6875,629.1875 709.5469,630.3438 Q708.5156,631.3594 707.1094,631.3594 Q705.7031,631.3594 704.6719,630.3438 Q702.9219,628.5781 702.9219,624.9063 Q702.9219,620.6563 704.7969,618.75 Q705.8438,617.7344 707.1719,617.7344 Q708.5781,617.7344 709.4219,618.5469 Q710.9063,620.0625 710.8281,622.9375 L708.7031,622.9375 Q708.625,620.6094 707.9844,619.9688 Q707.7031,619.6719 707.1719,619.6719 Q706.7188,619.6719 706.3594,620.0469 Q705.125,621.2656 705.125,624.7813 Q705.125,627.8281 706.1719,628.8438 Q706.5938,629.2813 707.1094,629.2813 Q707.5625,629.2813 708,628.8438 Q708.5625,628.2969 708.6406,625.7031 L710.9375,625.7031 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="727.75" y="630.2285">RelayCommand</text><line style="stroke:#181818;stroke-width:0.5;" x1="640.5" x2="882.5" y1="640.5" y2="640.5"/><line style="stroke:#181818;stroke-width:0.5;" x1="640.5" x2="882.5" y1="648.5" y2="648.5"/><ellipse cx="650.5" cy="662.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="659.5" y="667.0332">Execute() : void</text><ellipse cx="650.5" cy="680.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="659.5" y="684.6426">RaiseCanExecuteChanged() : void</text><ellipse cx="650.5" cy="698.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="211" x="659.5" y="702.252">BindAsEnabled(Control) : Binding</text><ellipse cx="650.5" cy="715.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="659.5" y="719.8613">BindAsVisible(Control) : Binding</text></g><!--MD5=[b1d46488418bc0cd55cf54b5fc017696]
+class ViewModel--><g id="elem_ViewModel"><rect codeLine="66" fill="#FFFFCC" height="48" id="ViewModel" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="483" y="874"/><ellipse cx="498" cy="890" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M501.6875,891.2031 Q501.4375,894.6875 500.2969,895.8438 Q499.2656,896.8594 497.8594,896.8594 Q496.4531,896.8594 495.4219,895.8438 Q493.6719,894.0781 493.6719,890.4063 Q493.6719,886.1563 495.5469,884.25 Q496.5938,883.2344 497.9219,883.2344 Q499.3281,883.2344 500.1719,884.0469 Q501.6563,885.5625 501.5781,888.4375 L499.4531,888.4375 Q499.375,886.1094 498.7344,885.4688 Q498.4531,885.1719 497.9219,885.1719 Q497.4688,885.1719 497.1094,885.5469 Q495.875,886.7656 495.875,890.2813 Q495.875,893.3281 496.9219,894.3438 Q497.3438,894.7813 497.8594,894.7813 Q498.3125,894.7813 498.75,894.3438 Q499.3125,893.7969 499.3906,891.2031 L501.6875,891.2031 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="512" y="895.7285">ViewModel</text><line style="stroke:#181818;stroke-width:0.5;" x1="484" x2="581" y1="906" y2="906"/><line style="stroke:#181818;stroke-width:0.5;" x1="484" x2="581" y1="914" y2="914"/></g><!--MD5=[c045e12321b83266d36d22b9096c24ea]
+class View--><g id="elem_View"><rect codeLine="70" fill="#FFFFCC" height="48" id="View" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="61" x="502" y="982"/><ellipse cx="517" cy="998" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M520.6875,999.2031 Q520.4375,1002.6875 519.2969,1003.8438 Q518.2656,1004.8594 516.8594,1004.8594 Q515.4531,1004.8594 514.4219,1003.8438 Q512.6719,1002.0781 512.6719,998.4063 Q512.6719,994.1563 514.5469,992.25 Q515.5938,991.2344 516.9219,991.2344 Q518.3281,991.2344 519.1719,992.0469 Q520.6563,993.5625 520.5781,996.4375 L518.4531,996.4375 Q518.375,994.1094 517.7344,993.4688 Q517.4531,993.1719 516.9219,993.1719 Q516.4688,993.1719 516.1094,993.5469 Q514.875,994.7656 514.875,998.2813 Q514.875,1001.3281 515.9219,1002.3438 Q516.3438,1002.7813 516.8594,1002.7813 Q517.3125,1002.7813 517.75,1002.3438 Q518.3125,1001.7969 518.3906,999.2031 L520.6875,999.2031 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="531" y="1003.7285">View</text><line style="stroke:#181818;stroke-width:0.5;" x1="503" x2="562" y1="1014" y2="1014"/><line style="stroke:#181818;stroke-width:0.5;" x1="503" x2="562" y1="1022" y2="1022"/></g><!--MD5=[ec73f51206b707b63056062a2e7a6465]
+reverse link INotifyPropertyChanged to BindableBase--><g id="link_INotifyPropertyChanged_BindableBase"><path codeLine="17" d="M574.5,93.18 C574.5,113.02 574.5,134.64 574.5,150.44 " fill="none" id="INotifyPropertyChanged-backto-BindableBase" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="567.5,93.07,574.5,73.07,581.5,93.07,567.5,93.07" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ef6c88a0b1a24a5c364f9d39982ef83b]
+link PropertyAgent to BindableBase--><g id="link_PropertyAgent_BindableBase"><path codeLine="18" d="M492.98,174.5 C495.95,174.5 502.94,174.5 502.94,174.5 " fill="none" id="PropertyAgent-BindableBase" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="514.94,174.5,508.94,170.5,502.94,174.5,508.94,178.5,514.94,174.5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="479.8,174.5,488.8,178.5,484.8,174.5,488.8,170.5,479.8,174.5" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="484.8" x2="492.8" y1="174.5" y2="174.5"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="487.4475" y="171.71">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="499.8604" y="170.9926">1</text></g><!--MD5=[a08f0145aa3c584361f85a8384b6cf61]
+reverse link ICanExecuteAware to Binder--><g id="link_ICanExecuteAware_Binder"><path codeLine="26" d="M611.5,408.62 C609.18,426.12 606.46,446.6 604.31,462.82 " fill="none" id="ICanExecuteAware-backto-Binder" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="612.21,403.29,607.062,411.6863,611.5529,408.2466,614.9926,412.7376,612.21,403.29" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fe76854521e158bb88e707e02cd9a557]
+reverse link BindableBase to ViewModelBase--><g id="link_BindableBase_ViewModelBase"><path codeLine="49" d="M552.21,216.18 C508.4,296.14 410.27,475.26 351.84,581.92 " fill="none" id="BindableBase-backto-ViewModelBase" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="546.14,212.7,561.89,198.52,558.42,219.43,546.14,212.7" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a51dc7fcde09b666d78a9813404688e9]
+reverse link Binder to ViewModelBase--><g id="link_Binder_ViewModelBase"><path codeLine="50" d="M559.2,517.72 C530.29,534.68 489.79,558.42 449.63,581.98 " fill="none" id="Binder-backto-ViewModelBase" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="563.73,515.06,553.9427,516.1599,559.4163,517.5882,557.9879,523.0618,563.73,515.06" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[807ae79f9095313d7ccde99332b99020]
+reverse link ICanExecuteAware to RelayCommand--><g id="link_ICanExecuteAware_RelayCommand"><path codeLine="60" d="M641.14,421.2 C666.59,473.07 706.26,553.93 733.04,608.49 " fill="none" id="ICanExecuteAware-backto-RelayCommand" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="634.82,424.22,632.29,403.19,647.39,418.06,634.82,424.22" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f05e9ae3e99444dcb11fd0e22ad92af6]
+reverse link BindableBase to RelayCommand--><g id="link_BindableBase_RelayCommand"><path codeLine="61" d="M615.72,212.51 C646.71,242.81 687.45,288.47 709.5,337 C749.86,425.85 759.62,540.48 761.57,608.47 " fill="none" id="BindableBase-backto-RelayCommand" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="610.68,217.37,600.99,198.53,620.32,207.22,610.68,217.37" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9773a78ceb391e9254ed7272b59572f1]
+reverse link Binder to RelayCommand--><g id="link_Binder_RelayCommand"><path codeLine="62" d="M630.75,526 C652.32,549.18 681.91,580.97 707.48,608.46 " fill="none" id="Binder-backto-RelayCommand" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="627.09,522.07,630.2885,531.385,630.4944,525.7319,636.1476,525.9379,627.09,522.07" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7ef414dbe4a51a2252886dc192fa2bca]
+reverse link ViewModelBase to ViewModel--><g id="link_ViewModelBase_ViewModel"><path codeLine="68" d="M403.96,767.61 C443.05,806.96 484.56,848.74 509.51,873.85 " fill="none" id="ViewModelBase-backto-ViewModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="398.83,772.38,389.7,753.26,408.77,762.52,398.83,772.38" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[67e05bebe27e03bda432c19df002d195]
+link RelayCommand to ViewModel--><g id="link_RelayCommand_ViewModel"><path codeLine="72" d="M693.67,736.18 C651.2,778.56 564.2819,865.2913 564.2819,865.2913 " fill="none" id="RelayCommand-ViewModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="555.79,873.77,562.8622,872.3613,564.2819,865.2913,557.2097,866.7,555.79,873.77" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="703.12,726.75,693.9249,730.2784,699.5817,730.2828,699.5773,735.9396,703.12,726.75" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="699.5817" x2="693.915" y1="730.2828" y2="735.93"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="674.7862" y="748.436">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="553.8612" y="863.0512">1</text></g><!--MD5=[e74c18e9fd10d12c67b99504d60fa0a8]
+link ViewModel to View--><g id="link_ViewModel_View"><path codeLine="73" d="M532.5,935.34 C532.5,946.01 532.5,969.68 532.5,969.68 " fill="none" id="ViewModel-View" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="532.5,981.68,536.5,975.68,532.5,969.68,528.5,975.68,532.5,981.68" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="532.5,922,528.5,931,532.5,927,536.5,931,532.5,922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="532.5" x2="532.5" y1="927" y2="935"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="524.6469" y="943.338">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="524.6469" y="971.34">1</text></g><!--MD5=[8aba9c4fb2ff1a7545121e51a0ec06b2]
+@startuml class_binding_framework
+
+interface INotifyPropertyChanged
+{
+    + PropertyChanged : event PropertyChangedEventHandler
+}
+
+abstract class BindableBase
+{
+}
+
+class PropertyAgent
+{
+    + Set<T>(storage : ref T, value : T, propertyName : string) : bool
+    + RaisePropertyChanged(propertyName : string) : void
+}
+
+INotifyPropertyChanged <|.. BindableBase
+PropertyAgent "1" <-* "1" BindableBase
+
+interface ICanExecuteAware
+{
+    + CanExecute() : bool
+}
+
+class Binder <<static>>
+ICanExecuteAware <.. Binder
+
+abstract class ViewModelBase
+{
+    + BindAsChecked(dataMember : string, CheckBox) : Binding
+    ' + BindAsChecked(dataMember : string, RadioButton) : Binding
+    + BindAsEnabled(dataMember : string, Control) : Binding
+    ' + BindAsEnabled(RelayCommand, Control) : Binding
+    + BindAsVisible(dataMember : string, Control) : Binding
+    ' + BindAsVisible(RelayCommand, Control) : Binding
+    ' + BindAsValue(dataMember : string, NumericUpDown) : Binding
+    ' + BindAsText(dataMember : string, Control) : Binding
+    + BindAsText(dataMember : string, Control, isOnChanged : bool) : Binding
+    + BindAsText(BindingSource, dataMember : string, Control) : Binding
+    ' + BindAs(dataMember : string, Control, propertyName : string) : Binding
+    + BindAs(dataMember : string, Control, propertyName : string, isOnChanged : bool) : Binding
+    ' + BindAs(INotifyPropertyChanged, dataMember : string, Control, propertyName : string) : Binding
+    ' + BindAs(INotifyPropertyChanged, dataMember : string, Control, propertyName : string, isOnChanged : bool) : Binding
+    ' + BindAs(BindingSource, dataMember : string, Control, propertyName : string) : Binding
+    ' + BindAs(BindingSource, dataMember : string, Control, propertyName : string, isOnChanged : bool) : Binding
+    {method} ...
+}
+
+BindableBase <|- - - ViewModelBase
+Binder <.. ViewModelBase
+
+class RelayCommand
+{
+    + Execute() : void
+    + RaiseCanExecuteChanged() : void
+    + BindAsEnabled(Control) : Binding
+    + BindAsVisible(Control) : Binding
+}
+
+ICanExecuteAware <|.. RelayCommand
+BindableBase <|- - - - - RelayCommand
+Binder <.. RelayCommand
+
+
+
+class ViewModel #ffc
+
+ViewModelBase <|- - - ViewModel
+
+class View #ffc
+
+RelayCommand "0..*" <- - -* "1" ViewModel
+ViewModel "1" <- -* "1" View
+
+@enduml
+
+@startuml class_binding_framework
+
+interface INotifyPropertyChanged
+{
+    + PropertyChanged : event PropertyChangedEventHandler
+}
+
+abstract class BindableBase
+{
+}
+
+class PropertyAgent
+{
+    + Set<T>(storage : ref T, value : T, propertyName : string) : bool
+    + RaisePropertyChanged(propertyName : string) : void
+}
+
+INotifyPropertyChanged <|.. BindableBase
+PropertyAgent "1" <-* "1" BindableBase
+
+interface ICanExecuteAware
+{
+    + CanExecute() : bool
+}
+
+class Binder <<static>>
+ICanExecuteAware <.. Binder
+
+abstract class ViewModelBase
+{
+    + BindAsChecked(dataMember : string, CheckBox) : Binding
+    + BindAsEnabled(dataMember : string, Control) : Binding
+    + BindAsVisible(dataMember : string, Control) : Binding
+    + BindAsText(dataMember : string, Control, isOnChanged : bool) : Binding
+    + BindAsText(BindingSource, dataMember : string, Control) : Binding
+    + BindAs(dataMember : string, Control, propertyName : string, isOnChanged : bool) : Binding
+    {method} ...
+}
+
+BindableBase <|- - - ViewModelBase
+Binder <.. ViewModelBase
+
+class RelayCommand
+{
+    + Execute() : void
+    + RaiseCanExecuteChanged() : void
+    + BindAsEnabled(Control) : Binding
+    + BindAsVisible(Control) : Binding
+}
+
+ICanExecuteAware <|.. RelayCommand
+BindableBase <|- - - - - RelayCommand
+Binder <.. RelayCommand
+
+
+
+class ViewModel #ffc
+
+ViewModelBase <|- - - ViewModel
+
+class View #ffc
+
+RelayCommand "0..*" <- - -* "1" ViewModel
+ViewModel "1" <- -* "1" View
+
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 02:01:30 JST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: MS932
+Language: ja
+Country: JP
+--></g></svg>
